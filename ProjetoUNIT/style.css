@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(36, 37, 36);
+}
+#titulo{
+    color: white;
+    padding-top: 30px;
+      
+}
+#botao{
+    background-color: red;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#input-tarefa{
+    height: 40px;
+    width: 50%;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+   
+
+}
+#geral{
+    background-color: rgb(45, 117, 185);
+    width: 600px;
+    min-height: 300px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+#tarefas{
+    width: 90%;
+    margin:auto;
+    padding: 30px;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+} 
+#input-tarefa::placeholder{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.lista{
+    margin: 20px;
+}
